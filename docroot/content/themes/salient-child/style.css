@@ -1,0 +1,25 @@
+/*
+Theme Name: Salient Child Theme
+Theme URI: http: //mysite.com/
+Description: This is a custom child theme for Salient
+Author: My Name
+Author URI: http: //mysite.com/
+Template: salient
+Version: 0.1
+*/
+
+/*contact page*/
+
+.page input[type=submit] {
+  background-color: #56872f;
+}
+/*.page input[type=submit]:hover{
+  background-color: #ECEBE9 !important;
+}*/
+
+@media all and (max-width: 600px){
+  .testimonial_slider:not([data-style="multiple_visible"]) blockquote {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
